@@ -1,2 +1,2 @@
-var msg = 'Hello World';
+var msg = 'bye World';
 console.log(msg);
