@@ -12,13 +12,20 @@ function printByeWorld(){
     console.log(msg);
 }
 
-function add(){
-    let result = 1 + 1;
+function add(firstNumber, secondNumber){
+    let result = firstNumber + secondNumber;
     return result;
 }
 
+const car = {type:"Fiat", model:"500", color:"white"};
+    console.log(car.type);
+
 
 printByeWorld();
 printByeWorld();
-const result = add();
+const result = add(2,3);
+const stringResult = add("2","3");
 console.log(result);
+console.log(stringResult);
+console.log(msg.length);
+console.log(msg.split(" "))
